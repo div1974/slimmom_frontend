@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import AuthComponent from '../components/AuthPage/AuthComponent';
 
 
