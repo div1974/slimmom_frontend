@@ -69,39 +69,4 @@ class Navigation extends Component {
   }
 }
 
-// const Navigation = (/*{ isLogged }*/) => (
-//   <>
-//     {/* {isLogged && ( */}
-//       <nav className={styles.Container}>
-//         <ul className={styles.NavList}>
-//           <li className={styles.NavItem}>
-//             <NavLink
-//               to={routes.diary}
-//               exact
-//               className={styles.NavigationLink}
-//               activeClassName={styles.NavigationLinkActive}
-//             >
-//               дневник
-//             </NavLink>
-//           </li>
-//           <li className={styles.NavItem}>
-//             <NavLink
-//               to={routes.calculator}
-//               exact
-//               className={styles.NavigationLink}
-//               activeClassName={styles.NavigationLinkActive}
-//             >
-//               калькулятор
-//             </NavLink>
-//           </li>
-//         </ul>
-//         <button
-//           className={styles.BurgerIcon}
-//         >
-//         </button>
-//       </nav>
-//     {/* )} */}
-//   </>
-// );
-
 export default Navigation;
