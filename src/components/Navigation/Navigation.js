@@ -50,6 +50,7 @@ class Navigation extends Component {
           <button
             className={styles.BurgerIcon}
             onClick={toogleModal}
+            name='Menu'
           >
           </button>
         )}
@@ -58,6 +59,7 @@ class Navigation extends Component {
           <button
             className={(styles.BurgerIconClose, styles.BurgerIcon)}
             onClick={toogleModal}
+            name='Close'
             // to='/'
           >
           </button>
