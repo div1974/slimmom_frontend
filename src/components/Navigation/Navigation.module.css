@@ -1,0 +1,80 @@
+.Container {
+  position: relative;
+}
+
+.BurgerIcon {
+  position: absolute;
+  left: 90%;
+  top: 30px;
+  color: #212121;
+  background-image: url("../../assets/icons/burger.svg");
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+/* .BurgerIconMenu {
+  background-image: url("../../assets/icons/burger.svg");
+} */
+
+.BurgerIconClose {
+  background-image: url("../../assets/icons/close-burger-modal.svg");
+}
+
+.NavList {
+  display: none;
+}
+
+.NavItem:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 1024px) {
+  .BurgerIcon {
+    display: none;
+  }
+  .NavList {
+    background: none;
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .NavigationLink {
+    color: #9b9faa;
+    font-family: "GothamPro", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .NavItem:not(:last-child) {
+    position: absolute;
+    /* width: 76px; */
+    /* height: 12px; */
+    left: 300px;
+    top: 134px;
+  }
+
+  .NavItem:last-child {
+    position: absolute;
+    width: 122px;
+    height: 12px;
+    left: 398px;
+    top: 134px;
+  }
+
+  .NavigationLinkActive {
+    color: #212121;
+  }
+}
