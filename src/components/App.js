@@ -1,11 +1,15 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { useHistory } from 'react-router-dom';
-import Header from './header/Header';
-import Main from './main/Main';
-import LoaderSpinner from '../components/loader/Loader';
-import isLoading from '../redux/selectors/loaderSelector';
-import authOperations from '../redux/operations/authOperations';
+import AuthComponent from "../components/AuthPage/AuthComponent";
+import AppNavTest from "./Navigation/AppNavTest";
+import DailyCaloriesForm from "./DailyCaloriesForm/DailyCaloriesForm";
+import SideBar from "./SideBar";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useHistory } from "react-router-dom";
+import Header from "./header/Header";
+import Main from "./main/Main";
+import LoaderSpinner from "../components/loader/Loader";
+import isLoading from "../redux/selectors/loaderSelector";
+import authOperations from "../redux/operations/authOperations";
 
 const App = () => {
   const loading = useSelector(isLoading);
@@ -14,8 +18,8 @@ const App = () => {
   const history = useHistory();
 
   useEffect(() => {
-    dispatch(authOperations.refreshOperation()).catch(error => {
-      history.push('/login');
+    dispatch(authOperations.refreshOperation()).catch((error) => {
+      history.push("/login");
     });
   }, []);
 
@@ -26,6 +30,10 @@ const App = () => {
       {loading && <LoaderSpinner />}
 
       <Main />
+      <AuthComponent />
+      <DailyCaloriesForm />
+      <AppNavTest />
+      <SideBar />
     </>
   );
 };
