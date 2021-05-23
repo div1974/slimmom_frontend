@@ -26,7 +26,14 @@ class DailyCaloriesForm extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.handleSubmit(this.state)
-
+        this.setState({
+            height: "",
+            age: "",
+            currentWeight: "",
+            desiredWeight: "",
+            bloodType: "",
+            showModal: false,
+        })
         this.handleModal();
     }
 
