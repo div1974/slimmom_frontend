@@ -1,70 +1,80 @@
 /* desktop */
 
-.overlay{
+.overlay {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 605px;
     height: 447px;
     margin: 0 auto;
     padding: 17px;
 }
-.title{
+
+.title {
     font-weight: 700;
     font-size: 34px;
     margin: 0;
     color: rgb(33, 33, 33);
 }
-.form{
+
+.form {
     display: flex;
     flex-wrap: wrap;
 }
-.button_wrapper{
+
+.button_wrapper {
     display: flex;
     align-items: center;
     margin-left: 345px;
 }
-.input{
+
+.input {
     width: 239px;
     color: rgb(33, 33, 33);
     border: 0;
     border-bottom: 1px solid rgb(224, 224, 224);
     outline: none;
 }
-.input_wrapper_first{
+
+.input_wrapper_first {
     width: 50%;
     margin-bottom: 65px;
-}
-.input_wrapper_second{
-    width: 50%;
-    margin-bottom: 65px;
-}
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
 }
 
-.bloodtype_text{
+.input_wrapper_second {
+    width: 50%;
+    margin-bottom: 65px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.bloodtype_text {
     color: rgb(155, 159, 170);
     font-size: 14px;
 }
-.label_text{
-   color: rgb(155, 159, 170);
-   font-size: 14px;
-   padding-right: 5px;
-   letter-spacing: 0.04em;
+
+.label_text {
+    color: rgb(155, 159, 170);
+    font-size: 14px;
+    padding-right: 5px;
+    letter-spacing: 0.04em;
 }
+
 .radio_item {
     font-weight: 700;
     display: inline-block;
     position: relative;
     padding: 0 6px;
     margin: 10px 0 0;
-  }
+}
 
-  .radio_item input[type='radio'] {
+.radio_item input[type='radio'] {
     display: none;
-  }
-  .radio_item label:before {
+}
+
+.radio_item label:before {
     content: " ";
     display: inline-block;
     position: relative;
@@ -75,19 +85,21 @@ input::-webkit-inner-spin-button {
     border-radius: 11px;
     border: 2px solid rgb(224, 224, 224);
     background-color: transparent;
-  }
-  .radio_item input[type=radio]:checked + label:after {
+}
+
+.radio_item input[type=radio]:checked + label:after {
     border-radius: 11px;
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
     position: absolute;
-    top: 12px;
-    left: 13px;
+    top: 10px;
+    left: 11px;
     content: " ";
     display: block;
     background: rgb(252, 132, 45);
-  }
-  .button{
+}
+
+.button {
     width: 176px;
     height: 44px;
     border-radius: 30px;
@@ -106,64 +118,75 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
     justify-content: center;
     margin: 0 auto;
-  }
-  /* Firefox */
+}
+
+/* Firefox */
 
 input[type=number] {
     -moz-appearance: textfield;
-  }
+}
 
-  /* tablet */
-@media (max-width: 768px) and (orientation : landscape){
-    .overlay{
+/* tablet */
+@media (max-width: 768px) and (orientation: landscape) {
+    .overlay {
         width: 605px;
         height: 420px;
     }
-    .title{
+
+    .title {
         font-size: 30px;
     }
-    .button_wrapper{
+
+    .button_wrapper {
         margin: 0;
     }
 }
 
 /* mobile */
 
-@media (max-width: 320px){
-    .overlay{
+@media (max-width: 320px) {
+    .overlay {
         width: 320px;
         height: auto;
     }
+
     .input_wrapper_first {
         width: auto;
         margin-bottom: 0;
     }
-    .input_wrapper_second{
+
+    .input_wrapper_second {
         width: auto;
         margin-bottom: 42px;
     }
-    .form{
+
+    .form {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
     }
-    .button_wrapper{
+
+    .button_wrapper {
         margin-left: 0;
     }
-    .title{
+
+    .title {
         font-size: 18px;
         margin-bottom: 14px;
         width: 290px;
         height: auto;
     }
-    .radio_item{
+
+    .radio_item {
         padding: 0 10px;
     }
-    .radio_item input[type=radio]:checked + label:after{
+
+    .radio_item input[type=radio]:checked + label:after {
         top: 12px;
         left: 16px;
     }
-    .input{
+
+    .input {
         margin-bottom: 8px;
     }
 }

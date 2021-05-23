@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styles from "./dailyCaloriesItem.module.css";
-import products from "./products.json";
 
 export default class DailyCaloriesItem extends Component {
   state = {
@@ -32,15 +31,9 @@ export default class DailyCaloriesItem extends Component {
             Продукты, которые вам не рекомендуется употреблять
           </h5>
           <ol className={styles.list}>
-            {products
-              .filter((product) => {
-                return (
-                  product.groupBloodNotAllowed[this.props.bloodType] === true
-                );
-              }, this)
-              .map((product, index) => {
+            {this.props.products.map((product, index) => {
                 return index < 5 ? (
-                  <li key={product.id}>{product.title.ru}</li>
+                  <li key={index}>{product.title.ru}</li>
                 ) : (
                   ""
                 );
