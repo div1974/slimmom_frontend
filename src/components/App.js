@@ -1,3 +1,4 @@
+
 import AuthComponent from "../components/AuthPage/AuthComponent";
 import AppNavTest from "./Navigation/AppNavTest";
 import DailyCaloriesForm from "./DailyCaloriesForm/DailyCaloriesForm";
@@ -26,9 +27,7 @@ const App = () => {
   return (
     <>
       <Header />
-
       {loading && <LoaderSpinner />}
-
       <Main />
       <AuthComponent />
       <DailyCaloriesForm />

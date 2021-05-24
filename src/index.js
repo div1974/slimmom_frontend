@@ -7,14 +7,13 @@ import 'modern-normalize/modern-normalize.css';
 import 'react-toastify/dist/ReactToastify.css';
 import './index.scss';
 import { store, persistor } from './redux/store';
-
 import './assets/styles/fonts.css';
 import '../node_modules/modern-normalize/modern-normalize.css';
 import './assets/styles/index.css';
 import App from './components/App';
-
 import Favicon from 'react-favicon';
 import FaviconIco from './assets/images/favicon.png';
+
 
 
 ReactDOM.render(
