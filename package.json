@@ -12,18 +12,23 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
+    "dayjs": "^1.10.5",
+    "eslint": "^7.26.0",
     "joi": "^17.4.0",
     "modern-normalize": "^1.1.0",
+    "node-sass": "^6.0.0",
     "query-string": "^7.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
+    "react-responsive": "^8.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-spinners": "^0.10.6",
     "react-toastify": "^7.0.4",
     "redux-persist": "^6.0.0",
     "sass": "^1.32.12",
+    "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -36,7 +41,18 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      ]
+    }
   },
   "browserslist": {
     "production": [

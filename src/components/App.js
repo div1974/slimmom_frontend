@@ -1,9 +1,10 @@
+import React, { useEffect } from "react";
 
 import AuthComponent from "../components/AuthPage/AuthComponent";
 import AppNavTest from "./Navigation/AppNavTest";
 import DailyCaloriesForm from "./DailyCaloriesForm/DailyCaloriesForm";
-import SideBar from "./SideBar";
-import React, { useEffect } from "react";
+import SideBar from "./rightSideBar";
+
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import Header from "./header/Header";
