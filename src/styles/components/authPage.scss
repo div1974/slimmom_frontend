@@ -1,0 +1,181 @@
+.section__auth{
+    min-width: 320px;
+    margin: 0 auto;
+    max-height: auto;
+    margin-top: 50px;
+}
+.section__auth h2{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #FC842D;
+    font-family: Gotham Pro, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.ToastContainer{
+    // margin: 0 auto;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    color: #ff0000;
+}
+.section__auth_login h2{
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #FC842D;
+    font-family: Gotham Pro, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.form{
+    margin: 0 auto;
+    width: 289px;
+}
+.form input{
+    width: 289px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    height: 60px;
+    outline:none;
+}
+.form input:nth-child(1){
+    margin-top: 20px;  
+    &:hover{
+        border-bottom: 1px solid #6264e4;
+    } 
+}
+.form input:nth-child(2){
+    margin-top: 40px;   
+    &:hover{
+        border-bottom: 1px solid #6264e4;
+    } 
+}
+.form input:nth-child(3){
+    margin-top: 40px;   
+    &:hover{
+        border-bottom: 1px solid #6264e4;
+    } 
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.btn button{
+    margin: 0 auto;
+    width: 176px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 2px solid #FC842D;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FC842D;
+    &:hover{
+        background-color: #FC842D;
+        color: #FFFFFF;
+    }
+    &:nth-child(2){
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+.auth_container{
+    background-image: url(../../image/bgTabletAuth/tabletAuth.png);
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: 1024px;
+    background-size: cover;
+    position: absolute;
+}
+.section__auth{
+    width: 382px;
+    height: 321px;
+    position: absolute;  
+    top: 19%;
+    left: 9.5%;
+}
+.section__auth_login{
+    width: 382px;
+    height: 321px;
+    position: absolute;  
+    top: 30%;
+    left: 9.5%;
+}
+.section__auth h2{
+    margin: 0; 
+}
+.section__auth_login h2{
+    margin: 0; 
+}
+.form{
+    margin: 0;
+    width: 240px;
+    height: 186.5px;
+    margin-top: 20px;
+    
+}
+.form input{
+    width: 240px;
+    height: 62.5px; 
+}
+.form input:nth-child(1){
+    margin-top: 0px; 
+}
+.form input:nth-child(2){
+    margin-top: 0px; 
+}
+.form input:nth-child(3){
+    margin-top: 0px; 
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    width: 382px;
+}
+.btn button:nth-child(2){
+    margin-top: 0px;
+}
+}
+@media (min-width: 1280px){
+    .auth_container{
+        background-image: url(../../image/bgDesctopAuth/1-health-home.png);
+        background-size: cover;
+        background-size: contain;
+        background-size: 80% auto;
+        background-position: right;
+    }
+    .auth{
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        position: relative;
+        z-index: -50;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section__auth{
+        height: 362.5px;
+        top: 15%;
+        left: 23%;
+    }
+    .section__auth_login{
+        height: 362.5px;
+        top: 24%;
+        left: 23%;
+    }
+}

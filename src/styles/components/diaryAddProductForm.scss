@@ -1,0 +1,124 @@
+.inpt_conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 82px;
+    margin-top: 80px;
+}
+.inpt_nameProd{
+    border-top:transparent;
+    border-left:transparent;
+    border-right:transparent;
+    border-bottom: 1px solid #E0E0E0;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #9B9FAA;
+    width: 289px;
+}
+.inpt_ccal{
+    border-top:transparent;
+    border-left:transparent;
+    border-right:transparent;
+    border-bottom: 1px solid #E0E0E0;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #9B9FAA;
+    margin-top: 30px;
+    width: 289px;
+}
+.btnProd{
+    width: 176px;
+    height: 44px;
+    background: #FC842D;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+    border-radius: 30px;
+    margin-top: 60px ;
+    position: relative;
+    left: 19%;
+    & p{
+        font-family: Verdana;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+}
+@media (min-width: 768px){
+.formDairyAddProduct{
+    display: flex;
+    width: 473px;
+}
+.inpt_conteiner{
+    width: 405px;
+    margin-top:  70px;
+    flex-direction: row;
+}
+.inpt_nameProd{
+    width: 400px;
+    height: 35px;
+    margin-bottom:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-top:transparent;
+    border-left:transparent;
+    border-right:transparent;
+    border-bottom: 1px solid #E0E0E0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Verdana;
+    line-height:1.21;
+    letter-spacing: 0.04em;
+    color: #9B9FAA;
+}
+.inpt_ccal{
+    width: 105px;
+    height: 35px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin: 0 0 30px 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Verdana;
+    line-height:1.21;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.btnProd{
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: -40px;
+    background: #FC842D;
+    box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+}
+}
+@media (min-width: 1280px){
+.diaryInptConteiner{
+    margin-right: 150px;
+}
+.inpt_conteiner{
+    width: 380px;
+}
+.btnProd{
+    margin-left: 0;
+}
+
+}
+
+
+
+
+

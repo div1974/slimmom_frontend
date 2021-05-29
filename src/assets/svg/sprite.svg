@@ -1,0 +1,23 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="buttonOn" viewBox="0 0 32 32">
+<path d="M16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16c8.8 0 16-7.2 16-16s-7.2-16-16-16v0zM16 28.8c-7.040 0-12.8-5.76-12.8-12.8s5.76-12.8 12.8-12.8c7.040 0 12.8 5.76 12.8 12.8s-5.76 12.8-12.8 12.8v0z"></path>
+</symbol>
+<symbol id="buttonOn" viewBox="0 0 32 32">
+<path  d="M16 8c-4.48 0-8 3.52-8 8s3.52 8 8 8c4.48 0 8-3.52 8-8s-3.52-8-8-8v0zM16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16c8.8 0 16-7.2 16-16s-7.2-16-16-16v0zM16 28.8c-7.040 0-12.8-5.76-12.8-12.8s5.76-12.8 12.8-12.8c7.040 0 12.8 5.76 12.8 12.8s-5.76 12.8-12.8 12.8v0z"></path>
+</symbol>
+<symbol id="button-onfocus" viewBox="0 0 32 32">
+<path fill="#fc842d" d="M16 30c-7.732 0-14-6.268-14-14s6.268-14 14-14v0c7.732 0 14 6.268 14 14s-6.268 14-14 14v0zM16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16v0c-8.837 0-16 7.163-16 16s7.163 16 16 16v0z"></path>
+<path fill=" #e0e0e0" d="M22 16c0 3.314-2.686 6-6 6s-6-2.686-6-6v0c0-3.314 2.686-6 6-6s6 2.686 6 6v0z"></path>
+</symbol>
+<symbol id="button-on" viewBox="0 0 32 32">
+<path fill="#e0e0e0" d="M16 30c-7.732 0-14-6.268-14-14s6.268-14 14-14v0c7.732 0 14 6.268 14 14s-6.268 14-14 14v0zM16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16v0c-8.837 0-16 7.163-16 16s7.163 16 16 16v0z"></path>
+<path fill=" #fc842d" d="M22 16c0 3.314-2.686 6-6 6s-6-2.686-6-6v0c0-3.314 2.686-6 6-6s6 2.686 6 6v0z"></path>
+</symbol>
+<symbol id="button-off" viewBox="0 0 34 32">
+<path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color2, #e0e0e0)" stroke="#e0e0e0" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.5238" d="M32 16c0 8.416-6.822 15.238-15.238 15.238s-15.238-6.822-15.238-15.238c0-8.416 6.822-15.238 15.238-15.238s15.238 6.822 15.238 15.238z"></path>
+</symbol>
+</defs>
+</svg>
+
+

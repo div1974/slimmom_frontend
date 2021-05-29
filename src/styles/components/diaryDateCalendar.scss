@@ -1,0 +1,39 @@
+.calendar{
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    color: #212121;
+    width: 260px;
+}
+.inptDate {
+    width: 138px;
+    border-color: transparent;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #212121;
+}
+.datePicker {
+    height: 20px;
+    display: flex;
+    align-items: baseline;
+}
+.iconCalendar {
+    height: 20px;
+    width: 18px;
+} 
+@media screen and (min-width: 768px) {
+.inptDate{
+    width: 219px;
+    margin-right: 21px;
+    font-size: 34px;
+    line-height: 1.2;
+}
+.datePicker{
+    height: 38px;
+} 
+}
